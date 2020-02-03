@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends "login_app/base.html" %}
+
+{% block title_block %}
+Basic login and register app
+{% endblock %}
+
+{% block body_block %}
+<h1 class="text-success">This is index page</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi, delectus ea error incidunt laudantium minima perferendis recusandae repudiandae sed.</p>
+<p class="text-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur doloremque
+dolorum eligendi
+enim ex explicabo fugiat, harum hic magni modi pariatur perferendis placeat quia recusandae rem sunt voluptate. Adipisci debitis distinctio dolores ea earum eos et fugit id illum iusto maiores perferendis quae quam quidem sapiente, sit tempora ut!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut ipsum molestiae non odio quo temporibus tenetur vitae. Consequuntur corporis cumque doloribus id in, minus nam nesciunt nobis nostrum odio perspiciatis possimus quod veniam vitae voluptas? Accusamus, asperiores atque dolorem doloribus, earum exercitationem labore molestias nisi quasi rem, reprehenderit similique.</p>
+<h1>{{ text|upper }}</h1>
+<h3>{{ number|add:90 }}</h3>
+{% endblock %}
